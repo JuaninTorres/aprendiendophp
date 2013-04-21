@@ -13,6 +13,7 @@ $var6 = array(
     'edad'     => 34
     );
 
+// Esta es de tipo boolean
 $var7 = true;
 
 // Simplemente las mostramos por pantalla
@@ -22,7 +23,11 @@ echo $var2;
 echo '<br />';
 
 // Concatenamos variables al momento de mostrarlas
-echo $var1.'|'.$var2;
+echo $var1.' aqui va otro texto '.$var2;
+echo '<br />';
+
+// Otra forma de hacer la concatenacion de arriba, aqui obtenemos el mismo resultado
+echo "{$var1} aqui va otro texto {$var2}";
 echo '<br />';
 
 // Haciendo operaciones matemáticas
