@@ -13,6 +13,8 @@ $var6 = array(
     'edad'     => 34
     );
 
+$var7 = true;
+
 // Simplemente las mostramos por pantalla
 echo $var1;
 echo '<br />';
