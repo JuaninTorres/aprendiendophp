@@ -11,6 +11,7 @@ while($i < 5)
 }
 */
 
+/*
 if($_GET['v']< 0)
 {
     echo 'v es negativo';
@@ -23,7 +24,22 @@ else
 {
     echo 'v es positivo';
 }
+*/
 
+switch($_GET['l'])
+{
+    case 'django':
+        echo 'Debes aprender a programar en Python';
+        break;
+    case 'symfony':
+        echo 'Debes aprender a programar en PHP';
+        break;
+    case 'coffeescript':
+        echo 'Debes aprender a programar en Javascript';
+        break;
+    default:
+        echo 'Debes aprender de TODO !!!';
+}
 
 
 ?>
