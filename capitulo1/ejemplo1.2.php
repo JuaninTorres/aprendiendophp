@@ -5,7 +5,7 @@
     <title>Ejemplo 1.2</title>
 </head>
 <body>
-    <form action="<?php echo $_SERVER['PHP_SELF']; ?>">
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <table>
             <tr>
                 <td>Nombre</td>
