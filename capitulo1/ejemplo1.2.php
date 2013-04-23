@@ -5,7 +5,7 @@
     <title>Ejemplo 1.2</title>
 </head>
 <body>
-    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="get">
         <table>
             <tr>
                 <td>Nombre</td>
@@ -38,12 +38,5 @@
                 <td><?php echo $_GET['email']; ?></td>
             </tr>
         </table>
-
-<pre>
-<?php
-print_r($_SERVER);
-?>
-</pre>
-
 </body>
 </html>
