@@ -38,5 +38,12 @@
                 <td><?php echo $_GET['email']; ?></td>
             </tr>
         </table>
+
+<pre>
+<?php
+print_r($_SERVER);
+?>
+</pre>
+
 </body>
 </html>
