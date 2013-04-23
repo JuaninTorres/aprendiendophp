@@ -1,12 +1,11 @@
 <?php
 
-if($_GET['var']!='')
+$i = 1;
+
+while($i < 5)
 {
-    echo 'Esto me pasaste como var: '.$_GET['var'];
-}
-else
-{
-    echo 'IMBECIL... no me pasaste NADA !!!';
+    echo "<h{$i}>Esto es un h{$i}</h{$i}>";
+    $i++;
 }
 
 
