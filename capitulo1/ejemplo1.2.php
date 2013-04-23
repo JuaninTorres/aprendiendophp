@@ -21,7 +21,7 @@
             </tr>
         </table>
     </form>
-            <table>
+            <table cellpadding="2" cellspacing="2" border="1">
             <tr>
                 <th>Nombre</th>
                 <th>Via POST</th>
