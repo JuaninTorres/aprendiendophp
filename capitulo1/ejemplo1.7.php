@@ -2,14 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Ejemplo 1.2</title>
+    <title>Ejemplo 1.7</title>
 </head>
 <body>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <table>
             <tr>
                 <td>Numero</td>
-                <td><input type="text" id="numero" name="numero"></td>
+                <td><input type="number" id="numero" name="numero"></td>
             </tr>
             <tr>
                 <td></td>
@@ -17,14 +17,7 @@
             </tr>
         </table>
     </form>
-            <tr>
-                <th>Numero</th>
-                <th>Via POST</th>
-            </tr>
-            <tr>
-                <td>Nombre</td>
-                <td><?php echo $_POST['numero']; ?></td>
-            </tr>
+            
 
             <?php
 
