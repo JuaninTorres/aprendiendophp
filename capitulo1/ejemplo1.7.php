@@ -27,7 +27,7 @@ if(is_numeric($numero) && ($numero > 1) )
 {
     // Me pasaron un numero
     $i = 1;
-    $factorial = 0;
+    $factorial = 1;
     while($i <= $numero)
     {
         $factorial = $factorial * $i;
