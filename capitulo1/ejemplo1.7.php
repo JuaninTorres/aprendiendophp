@@ -23,7 +23,7 @@
 
 $numero = $_POST['numero'];
 
-echo $numero
+echo ' este es el numero puesto : $numero ';
 
 
 ?>
