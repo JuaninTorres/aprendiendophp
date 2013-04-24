@@ -27,13 +27,13 @@ if(is_numeric($numero) && ($numero > 1) )
 {
     // Me pasaron un numero
     $i = 1;
-    $sumatoria = 0;
-    while($i <= $numero)
+    $factorial = 0;
+    while($i <= $n)
     {
-        $sumatoria = $sumatoria * ($i + $numero);
-       break;
+        $factorial = $sumatoria + $i;
+        $i++;
     }
-    echo "La sumatoria desde 1 hasta {$numero} es: {$sumatoria}";
+    echo "La factorial desde 1 hasta {$numero} es: {$sumatoria}";
 }
 else
 {
