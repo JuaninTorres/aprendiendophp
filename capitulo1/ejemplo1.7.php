@@ -30,7 +30,7 @@ if(is_numeric($numero) && ($numero > 1) )
     $factorial = 0;
     while($i <= $numero)
     {
-        $factorial = $factorial + $i;
+        $factorial = $factorial * $i;
         $i++;
     }
     echo "La factorial desde 1 hasta {$numero} es: {$factorial}";
