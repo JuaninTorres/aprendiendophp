@@ -28,12 +28,12 @@ if(is_numeric($n) && ($numero > 1) )
     // Me pasaron un numero
     $i = 1;
     $sumatoria = 0;
-    while($i <= $n)
+    while($i <= $numero)
     {
         $sumatoria = $sumatoria + $i;
         $i++;
     }
-    echo "La sumatoria desde 1 hasta {$n} es: {$sumatoria}";
+    echo "La sumatoria desde 1 hasta {$numero} es: {$sumatoria}";
 }
 else
 {
