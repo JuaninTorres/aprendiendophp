@@ -21,9 +21,9 @@
 
             <?php
 
-$numero = $_GET['numero'];
+$numero = $_POST['numero'];
 
-if(is_numeric($n) && ($numero > 1) )
+if(is_numeric($numero) && ($numero > 1) )
 {
     // Me pasaron un numero
     $i = 1;
