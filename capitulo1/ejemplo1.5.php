@@ -22,15 +22,9 @@ $vector = array(
     );
 $vectorLetras = array('a','b','c','d','e');
 
-foreach($vector as $clave => $valor)
+foreach($vectorLetras as $k => $v)
 {
-    echo "La clave es {$clave} apuntando al valor {$valor}<br />";
+    echo "La clave es {$k} apuntando al valor {$v}<br />";
 }
-
-
-
-
-
-
 
 ?>

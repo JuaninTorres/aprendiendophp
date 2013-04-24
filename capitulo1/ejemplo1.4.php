@@ -11,7 +11,7 @@ while($i < 5)
 }
 */
 
-/*
+
 if($_GET['v']< 0)
 {
     echo 'v es negativo';
@@ -24,7 +24,7 @@ else
 {
     echo 'v es positivo';
 }
-*/
+
 
 switch($_GET['l'])
 {
@@ -41,5 +41,18 @@ switch($_GET['l'])
         echo 'Debes aprender de TODO !!!';
 }
 
+$heComido = true;
+
+
+if($heComido)
+{
+    $pensamiento = 'Estoy satisfecho';
+}
+else
+{
+    $pensamiento = 'PUCHA QUE TENGO HAMBRE !!!';
+}
+
+$pensamiento = ($heComido)?'Estoy satisfecho':'PUCHA QUE TENGO HAMBRE !!!';
 
 ?>

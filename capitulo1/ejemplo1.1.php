@@ -6,12 +6,17 @@ $var1 = 'Un texto cualquiera';
 $var2 = 12345;
 $var3 = 6789;
 $var4 = array(1,2,3,4,5);
+
+
 $var5 = array('a','b','c','d','e');
+
+
 $var6 = array(
     'nombre'   => 'Juan',
     'apellido' => 'Torres',
     'edad'     => 34
     );
+
 
 // Esta es de tipo boolean
 $var7 = true;

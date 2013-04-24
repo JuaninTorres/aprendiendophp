@@ -5,6 +5,8 @@ $var1 = 'Hola Mundo' ;
 echo $var1;
 
 
-echo 'chau mundo' ;
+define('LOCUTOR','Phillip');
+
+echo LOCUTOR ;
 
 ?>
