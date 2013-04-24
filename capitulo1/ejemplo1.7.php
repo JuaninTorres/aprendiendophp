@@ -19,26 +19,11 @@
     </form>
             
 
-            <?php
+<?php
 
 $numero = $_POST['numero'];
 
-if(is_numeric($numero) && ($numero > 1) )
-{
-    // Me pasaron un numero
-    $i = 1;
-    $sumatoria = 0;
-    while($i <= $numero)
-    {
-        $sumatoria = $sumatoria + $i;
-        $i++;
-    }
-    echo "La sumatoria desde 1 hasta {$numero} es: {$sumatoria}";
-}
-else
-{
-    echo "<span style='font-size: 24px; color: red;'>ESTUPIDO, TE DIJE UN NUMERO !!!!</span>";
-}
+echo $numero
 
 
 ?>
