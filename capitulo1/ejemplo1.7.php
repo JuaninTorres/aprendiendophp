@@ -31,7 +31,7 @@ if(is_numeric($numero) && ($numero > 1) )
     while($i <= $numero)
     {
         $sumatoria = $sumatoria * $i;
-       
+       break;
     }
     echo "La sumatoria desde 1 hasta {$numero} es: {$sumatoria}";
 }
