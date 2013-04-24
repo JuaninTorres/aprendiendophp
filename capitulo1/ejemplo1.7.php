@@ -28,12 +28,12 @@ if(is_numeric($numero) && ($numero > 1) )
     // Me pasaron un numero
     $i = 1;
     $factorial = 0;
-    while($i <= $n)
+    while($i <= $numero)
     {
-        $factorial = $sumatoria + $i;
+        $factorial = $factorial + $i;
         $i++;
     }
-    echo "La factorial desde 1 hasta {$numero} es: {$sumatoria}";
+    echo "La factorial desde 1 hasta {$numero} es: {$factorial}";
 }
 else
 {
