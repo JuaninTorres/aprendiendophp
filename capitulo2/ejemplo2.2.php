@@ -17,10 +17,10 @@ function getMenu($actual='home')
             'url'   => 'about.html',
             'texto' => 'a cerca de'
             ),
-        'contacto' array(
+        'contacto' => array(
             'url'   => 'contacto.html',
             'texto' => 'Contacto'
-            ),
+            )
         );
 
     $menu = "<ul>";
