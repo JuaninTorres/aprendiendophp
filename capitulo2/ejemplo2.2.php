@@ -30,6 +30,7 @@ function getMenu($actual='home')
         $menu .= "<li class='{$current}'><a href='{$seccion['url']}'>{$seccion['texto']}</a></li>";
     }
     $menu .= "</ul>";
+    return $menu;
 }
 
 function getFooter()
