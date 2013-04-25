@@ -14,13 +14,21 @@ function calcularSumatoria($n)
             $sumatoria = $sumatoria + $i;
             $i++;
         }
-        echo "La sumatoria desde 1 hasta {$n} es: {$sumatoria}";
+        return $sumatoria;
     }
     else
     {
         echo "<span style='font-size: 24px; color: red;'>ESTUPIDO, TE DIJE UN NUMERO !!!!</span>";
+        return false;
     }
 }
+
+$numero = 5;
+$a = calcularSumatoria($numero);
+
+
+echo "La sumatoria de {$numero} es {$a}";
+
 
 
 ?>
