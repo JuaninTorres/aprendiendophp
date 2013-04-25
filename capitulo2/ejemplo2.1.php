@@ -31,7 +31,7 @@ $b = calcularSumatoria($otroNumero);
 echo "La sumatoria de {$numero} es {$a}<br />";
 echo "La sumatoria de {$otroNumero} es {$b}<br />";
 
-echo '------------------------------<br />'
+echo '------------------------------<br />';
 for($i=1;$i<15;$i=$i+2)
 {
     $c = calcularSumatoria($i);
