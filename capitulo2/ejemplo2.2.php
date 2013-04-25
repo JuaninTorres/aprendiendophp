@@ -52,6 +52,6 @@ function getFooter()
     }
 </style>
 
-<div><?php getHeader(); ?></div>
-<div><?php getMenu($_GET['v']); ?></div>
-<div><?php getFooter(); ?></div>
+<div><?php echo getHeader(); ?></div>
+<div><?php echo getMenu($_GET['v']); ?></div>
+<div><?php echo getFooter(); ?></div>
