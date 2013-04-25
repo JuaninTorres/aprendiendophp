@@ -24,10 +24,12 @@ function calcularSumatoria($n)
 }
 
 $numero = 5;
+$otroNumero = 7;
 $a = calcularSumatoria($numero);
+$b = calcularSumatoria($otroNumero);
 
-
-echo "La sumatoria de {$numero} es {$a}";
+echo "La sumatoria de {$numero} es {$a}<br />";
+echo "La sumatoria de {$otroNumero} es {$b}<br />";
 
 
 
