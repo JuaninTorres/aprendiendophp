@@ -27,7 +27,7 @@ function getMenu($actual='home')
     foreach ($elementosMenu as $index => $seccion)
     {
         $current = ($index==$actual)?'current':'';
-        $menu .= "<li class='{$current}'><a href='{$seccion['url']}'>{$seccion['texto']</a></li>";
+        $menu .= "<li class='{$current}'><a href='{$seccion['url']}'>{$seccion['texto']}</a></li>";
     }
     $menu .= "</ul>";
 }
