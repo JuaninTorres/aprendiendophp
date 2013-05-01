@@ -1,5 +1,5 @@
 <?php
-function getMenu($actual='home')
+function getMenu($actual='inicio')
 {
     $elementosMenu = array(
         'inicio' => array(
