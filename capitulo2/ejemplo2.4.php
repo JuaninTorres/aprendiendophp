@@ -6,17 +6,33 @@ function getHeader()
     return $h;
 }
 
-function getMenu($actual='home')
+function getMenu($actual='inicio')
 {
-    $elementosMenu = array(
-        'home' => array(
-            'url'   => 'home.html',
-            'texto' => 'HOME'
+    $elementosMenu = array(      
+        'inicio' => array(
+            'url'   => 'inicio.html',
+            'texto' => 'inicio'
             ),
-        'about' => array(
-            'url'   => 'about.html',
-            'texto' => 'a cerca de'
+        'noticias' => array(
+            'url'   => 'noticias.html',
+            'texto' => 'noticias'
             ),
+        'cancionesnuevas' => array(
+            'url'   => 'cancionesnuevas.html',
+            'texto' => 'cancionesnuevas'
+            )
+        'videos' => array(
+            'url'   => 'videos.html',
+            'texto' => 'videos'
+            )
+        'letras' => array(
+            'url'   => 'letras.html',
+            'texto' => 'letras'
+            )
+        'eventos' => array(
+            'url'   => 'eventos.html',
+            'texto' => 'eventos'
+            )
         'contacto' => array(
             'url'   => 'contacto.html',
             'texto' => 'Contacto'

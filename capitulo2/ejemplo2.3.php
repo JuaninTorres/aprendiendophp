@@ -1,7 +1,14 @@
 <?php
+
+function getHeader()
+{
+    $h = 'Esto es el header';
+    return $h;
+}
+
 function getMenu($actual='inicio')
 {
-    $elementosMenu = array(
+    $elementosMenu = array(      
         'inicio' => array(
             'url'   => 'inicio.html',
             'texto' => 'inicio'
@@ -42,23 +49,26 @@ function getMenu($actual='inicio')
     return $menu;
 }
 
+function getFooter()
+{
+    return 'Esto es FOOTER !!!';
+}
+
 
 ?>
 
 <style>
     li{
-        background: #EB1D22;
+        background: yellow;
         display: inline-block;
-        height: 1.1em;
-        width: 1000px;
-        max-width: 100%;
-        margin: 0 auto;
-
+        height: 2em;
+        width: 5em;
     }
     li.current{
-        background:white;
+        background: red;
     }
 </style>
 
-
+<div><?php echo getHeader(); ?></div>
 <div><?php echo getMenu($_GET['v']); ?></div>
+<div><?php echo getFooter(); ?></div>
