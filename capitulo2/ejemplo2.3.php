@@ -20,19 +20,19 @@ function getMenu($actual='inicio')
         'cancionesnuevas' => array(
             'url'   => 'cancionesnuevas.html',
             'texto' => 'cancionesnuevas'
-            )
+            ),
         'videos' => array(
             'url'   => 'videos.html',
             'texto' => 'videos'
-            )
+            ),
         'letras' => array(
             'url'   => 'letras.html',
             'texto' => 'letras'
-            )
+            ),
         'eventos' => array(
             'url'   => 'eventos.html',
             'texto' => 'eventos'
-            )
+            ),
         'contacto' => array(
             'url'   => 'contacto.html',
             'texto' => 'Contacto'
