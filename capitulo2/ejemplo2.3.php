@@ -1,11 +1,4 @@
 <?php
-
-function getHeader()
-{
-    $h = 'Esto es el header';
-    return $h;
-}
-
 function getMenu($actual='home')
 {
     $elementosMenu = array(
@@ -47,11 +40,6 @@ function getMenu($actual='home')
     }
     $menu .= "</ul>";
     return $menu;
-}
-
-function getFooter()
-{
-    return 'Esto es FOOTER !!!';
 }
 
 
